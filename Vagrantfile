@@ -1,6 +1,7 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 
+# Find more vagrant images here: https://app.vagrantup.com/boxes/search
 Vagrant.configure("2") do |config|
     config.vm.box = "generic/ubuntu1804"
 
